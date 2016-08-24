@@ -32,13 +32,13 @@ gulp.task('serve:site', function() {
 There are multiple parameters you can supply the object passed into the `gulp-serve-iis-express` variable:
 
 ```javascript
-configFile // (String) path to the config file.
-siteNames // (String Array) array of site names.
-appPath // (String) application folder path.
-port // (Number) port number to serve the application. Defaults to 8080.
-clrVersion // (String) Version of clr.
-sysTray // (Boolean) Show the application in the system tray.
-iisExpressPath // (String) Path to IIS Express if different from programfiles (x86)
+configFile // Required (String) path to the config file.
+siteNames // Required (String Array) array of site names.
+appPath // Optional (String) application folder path.
+port // Optional (Number) port number to serve the application. Defaults to 8080.
+clrVersion // Optional (String) Version of clr.
+sysTray // Optional (Boolean) Show the application in the system tray.
+iisExpressPath // Optional (String) Path to IIS Express if different from programfiles (x86)
 ```
 ### Additional Functionality
 You can also call an additional function to launch the browser with a specified url after the server has been started.
