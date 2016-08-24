@@ -52,7 +52,7 @@ iisexpress.launchBrowser({
 ```
 
 ## Contributing
-Please open an issue first then create a pull request with and changes/additions linked to the issue.
+Please open an issue first, then create a pull request with changes/additions linked to the issue.
 
 ## License
 [MIT License](https://github.com/mitchwinn/gulp-server-iis-express/blob/master/LICENSE.txt)
