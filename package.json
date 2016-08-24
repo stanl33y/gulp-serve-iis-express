@@ -1,0 +1,30 @@
+{
+  "name": "gulp-serve-iis-express",
+  "version": "1.0.0",
+  "description": "Gulp package that will serve a site through IIS Express",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchwinn/gulp-serve-iis-express.git"
+  },
+  "keywords": [
+    "iis",
+    "iis-express",
+    "gulp"
+  ],
+  "author": "Mitch Winn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchwinn/gulp-serve-iis-express/issues"
+  },
+  "homepage": "https://github.com/mitchwinn/gulp-serve-iis-express#readme",
+  "dependencies": {
+		"gulp-open": "^0.3.2",
+		"gulp": "^3.8.11",
+		"gulp-shell": "^0.3.0",
+		"gulp-util": "^3.0.4"
+  }
+}
