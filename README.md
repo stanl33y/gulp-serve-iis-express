@@ -15,7 +15,7 @@ Create a new task using `gulp-serve-iis-express`, which might look like below:
 'use strict';
 
 var gulp = require('gulp');
-var iisexpress = require('gulp-serve-iis-express');
+var iisexpress = require('gulp-iis-express');
 
 gulp.task('serve:site', function() {
     var configPath = path.join(__dirname, '..\\.vs\\config\\applicationHost.config');
